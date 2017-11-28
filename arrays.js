@@ -19,7 +19,12 @@ function destructivelyAddElementToEndOfArray(array, element){
   array.push(element)
   return array
 }
-
+// when a parameter able to use index as a value in array
 function accessElementInArray(array, index){
   return array[index]
+}
+//remove first element
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift()
+  return array
 }
