@@ -28,8 +28,16 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift()
   return array
 }
+//removeElementFromBeginningOfArray
+function removeElementFromBeginningOfArray(array){
+  return array.slice(1)
+}
+//removeElementFromEndOfArray
+function removeElementFromEndOfArray(array){
+  return array.slice(-1)
+}
 //destructivelyRemoveElementFromEndOfArray
 function destructivelyRemoveElementFromEndOfArray(array){
-  array = array.slice(-1)
+  array.pop()
   return array
 }
