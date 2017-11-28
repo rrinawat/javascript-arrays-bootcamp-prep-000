@@ -24,7 +24,7 @@ function accessElementInArray(array, index){
   return array[index]
 }
 //remove first element
-function removeElementFromBeginningOfArray(array){(array){
+function removeElementFromBeginningOfArray(array){
   array.shift()
   return array
 }
